@@ -20,4 +20,4 @@ while i<len(li):
     i+=1
     if "The system could not log you on" not in driver.page_source:
         break
-driver.close
+driver.close()
