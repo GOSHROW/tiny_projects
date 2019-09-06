@@ -9,7 +9,7 @@ from selenium import webdriver
 driver = webdriver.Edge()
 driver.get("https://172.16.1.1:8090/")
 s=input("enter roll no. to get cyberroam access on: in btech1010018 format")
-while true:
+while i<len(li):
     pwd = None
     usr = None
     while pwd is None or usr is None:
