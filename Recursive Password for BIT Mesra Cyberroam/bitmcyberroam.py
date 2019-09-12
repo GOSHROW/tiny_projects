@@ -6,8 +6,12 @@ for i in {"99","00","01"}:
 i=0
 
 from selenium import webdriver
+import ssl
 driver = webdriver.Edge()
 driver.get("https://172.16.1.1:8090/")
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
 s=input("enter roll no. to get cyberroam access on: in btech1010018 format")
 while i<len(li):
     pwd = None
