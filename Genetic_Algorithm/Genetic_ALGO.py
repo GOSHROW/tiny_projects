@@ -5,7 +5,7 @@ By:                 Swapnil Ghosh
 For:                Basics of Intelligent Computing
                     Assignment #8
 Date of Creation:   18th November, 2019, evidenced by commit to GitHub
-GitHub:             https://github.com/GOSHROW/tiny_projects/Genetic_Algorithm
+GitHub:             https://github.com/GOSHROW/tiny_projects/blob/master/Genetic_Algorithm/Genetic_ALGO.py
 '''
 
 # Importing neccessary libraries for future uses 
